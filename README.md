@@ -2,6 +2,12 @@
 
 
 
+Реализованы алгоритмы контроля:
+
+- Monte Carlo with Exploring Starts;
+
+- Monte Carlo On policy control.
+
 
 1) файл для запуска:
 
