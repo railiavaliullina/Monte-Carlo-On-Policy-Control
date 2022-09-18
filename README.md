@@ -1,28 +1,34 @@
 # Monte Carlo On Policy Control, Reinforcement Learning
 
 
+# About The Project
 
-Реализованы алгоритмы контроля:
+The following control algorithms were implemented:
 
 - Monte Carlo with Exploring Starts;
 
 - Monte Carlo On policy control.
 
 
-1) файл для запуска:
 
-`/executor/executor.py`
+# Getting Started
 
-`action_set`, `map_name`, `policy_type` можно поменять в `/configs/config.py` 
-через параметры `cfg.action_set`, `cfg.map_name`, `cfg.policy_type`.
+File to run: 
+    
+    /executor/executor.py
 
-2) реализация first/every policy evaluation:
+Parameters `action_set`, `map_name`, `policy_type` can be changed in:
+    
+    /configs/config.py via parameters cfg.action_set, cfg.map_name, cfg.policy_type.
 
-`/MC/MC.py`
+The implementation of first/every policy evaluation algorithms:
 
-3) Графики сравнения алгоритмов по bias и variance:
+      /MC/MC.py
+
+Visualization for comparing algorithms by bias and variance:
    
-   `/plots/`
+   /plots/
 
-Также при запуске `/executor/executor.py` графики построятся в браузере, где можно будет посмотреть все значения подробнее и 
-значения bias и variance для first и every visit policy evaluation выведятся в консоль.
+# Additional Information
+
+Also, when you run `/executor/executor.py`, graphs will be built in the browser, where you can see all the values in more detail and the bias and variance values for first and every visit policy evaluation will be printed to the console.
