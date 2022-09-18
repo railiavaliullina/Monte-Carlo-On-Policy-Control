@@ -27,7 +27,7 @@ The implementation of first/every policy evaluation algorithms:
 
 Visualization for comparing algorithms by bias and variance:
    
-   /plots/
+    /plots/
 
 # Additional Information
 
